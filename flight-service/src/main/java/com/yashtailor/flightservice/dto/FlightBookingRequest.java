@@ -1,10 +1,7 @@
 package com.yashtailor.flightservice.dto;
 
-import com.yashtailor.flightservice.entity.PassengerInfo;
-import com.yashtailor.flightservice.entity.PaymentInfo;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.yashtailor.flightservice.entity.*;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
@@ -12,5 +9,4 @@ import lombok.NoArgsConstructor;
 public class FlightBookingRequest {
     private PassengerInfo passengerInfo;
     private PaymentInfo paymentInfo;
-
 }

@@ -1,12 +1,11 @@
 package com.yashtailor.flightservice.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.*;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-import java.util.Date;
+import java.util.*;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
